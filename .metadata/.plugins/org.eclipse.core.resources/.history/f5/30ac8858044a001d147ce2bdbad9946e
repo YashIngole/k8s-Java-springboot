@@ -1,0 +1,3 @@
+spring.datasource.url=jdbc:mysql://localhost:3306/springbackend?useSSL=false
+spring.datasource.username=springbackend
+spring.datasource.password=springbackend

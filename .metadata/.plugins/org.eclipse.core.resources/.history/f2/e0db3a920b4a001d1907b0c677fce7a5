@@ -1,0 +1,15 @@
+package com.example.springbackend.service;
+
+import java.util.List;
+
+import com.example.springbackend.model.Worker;
+
+public class WorkerServiceImpl implements WorkerService {
+
+	@Override
+	public List<Worker> findAll() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

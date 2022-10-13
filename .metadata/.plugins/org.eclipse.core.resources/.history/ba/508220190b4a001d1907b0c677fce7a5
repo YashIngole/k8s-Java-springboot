@@ -1,0 +1,7 @@
+package com.example.springbackend.repository;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface WorkerRepository extends JpaRepository<T, ID> {
+
+}
