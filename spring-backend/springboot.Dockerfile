@@ -5,7 +5,7 @@ FROM adoptopenjdk/openjdk11:alpine-slim
 WORKDIR /app
 
 # Copy the JAR file built by Maven/Gradle
-COPY target/<your-application-name>.jar app.jar
+COPY target/spring-backend.jar app.jar
 
 # Expose port 8080
 EXPOSE 8080
