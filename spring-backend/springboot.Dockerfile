@@ -20,7 +20,7 @@ FROM adoptopenjdk/openjdk11:alpine-slim
 WORKDIR /app
 
 # Copy the JAR file from the build stage to the final container
-COPY --from=build /app/target/spring-backend.jar app.jar
+COPY --from=build /app/target/spring-backend-v1.jar app.jar
 
 # Expose port 8080
 EXPOSE 8080
