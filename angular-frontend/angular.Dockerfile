@@ -20,7 +20,7 @@ RUN npm run build --prod
 FROM nginx:latest
 
 # Copy the built Angular app from the build stage to the nginx public directory
-COPY --from=build /app/dist/angular-frontend /usr/share/nginx/html
+COPY --from=build /app/angular-frontend /usr/share/nginx/html
 
 # Expose port 80
 EXPOSE 80
